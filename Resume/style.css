@@ -1,14 +1,27 @@
 h1 {color: #394543}
-h2 {color: #0d3832;}
+
 h2 {color: #072420;}
-h2 {color: #0d3832;}
-h2 {font-size:1em;
+
+body {
+    margin: 0 15%;
+    font-family: sans-serif;
+    background-color: #white;
 }
+body {
+    font-family: "Akshar", sans-serif;
+    font-size: 95%;
+    line-height: 175%;
+    margin: 0 15% 0;
+    color: #2F4F4F;
+}
+user agent stylesheet
+body {
+    display: block;
+    margin: 8px;}
 
 a:link {color:black;}
 a:visited {color:gray;}
 a:focus {color:black; background-color:teal;}
 a:hover {color:black; background-color:teal;}
 a:active {color:teal}
-
 
