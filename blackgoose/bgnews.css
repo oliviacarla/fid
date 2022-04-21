@@ -1,40 +1,32 @@
-<!DOCTYPE html >
-<html>
-
-<head>
-<meta charset="utf-8">
-<link href='http://fonts.googleapis.com/css?family=Marko+One' rel='stylesheet' type='text/css'>
-<style>
+@charset "UTF-8";
 body {
-  font-family: Georgia, serif;
+  font-family: Courier New ;
   font-size: 100%;
   line-height: 175%;
   margin: 0 15% 0;
-  background: #faf2e4 url(images/blackgoose.png) no-repeat center 100px fixed;
+  background: #faf2e4
 }
 header {
   margin-top: 0;
   padding: 3em 1em 2em 1em;
   text-align: center;
-  background: url(images/purpledot.png) center top repeat-x;
-  background: 
-    url(images/purpledot.png) left top repeat-y,
-    url(images/purpledot.png) right top repeat-y,
+  background:
     url(images/gooseshadow.png) 90% bottom no-repeat;
-  background-color: rgba(255,255,255,.5);
+background-color: #FFFAFA;
+
 }
 
 a {
   text-decoration: none;
 }
 a:link {
-  color: #939;
+  color: #B8860B;
 }
 a:visited {
   color: #937393;
 }
 a:focus, a:hover {
-  color: #c700f2;
+  color: #DAA520;
   background-color: #fff;
 }
 a:active {
@@ -43,9 +35,8 @@ a:active {
 }
 
 h1 {
-  font: bold 1.5em Georgia, serif;
-  text-shadow: .05em .05em .1em lightslategray;
-  color: #939;
+  font: bold 1.5em Courier New.;
+  color: #E9967A;
 }
 h2 {
   font-size: 1em;
@@ -53,6 +44,13 @@ h2 {
   letter-spacing: .5em;
   text-align: center;
   color: #c60;
+}
+h3{
+    font-size: 1em;
+    text-transform: uppercase;
+    letter-spacing: .5em;
+    text-align: center;
+    color: #FFA074;
 }
 dt {
   font-weight: bold;
@@ -67,6 +65,7 @@ ul {
 }
 #info p {
   font-style: italic;
+
 }
 .price {
   font-family: Georgia, serif;
@@ -85,7 +84,3 @@ h2 + p {
   text-align: center;
   font-style: italic;
 }
-
-
-</style>
-</head>
